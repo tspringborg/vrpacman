@@ -19,6 +19,15 @@ ExportedObj/
 *.svd
 
 
+*/node_modules
+*/*/node_modules
+.idea
+**/Temp
+**/Library
+**/*/.DS_Store
+*/.DS_Store
+.DS_Store
+
 # Unity3D generated meta files
 *.pidb.meta
 

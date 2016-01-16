@@ -1,0 +1,17 @@
+/Users/thomasspringborg/Documents/2016_codestuff/vrpacman/vrpacman/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/thomasspringborg/Documents/2016_codestuff/vrpacman/vrpacman/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/thomasspringborg/Documents/2016_codestuff/vrpacman/vrpacman/obj/Debug/Assembly-CSharp-firstpass.dll
+/Users/thomasspringborg/Documents/2016_codestuff/vrpacman/vrpacman/obj/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/thomasspringborg/Documents/2016_codestuff/vrpacman/vrpacman/Temp/bin/Debug/UnityEngine.dll
+/Users/thomasspringborg/Documents/2016_codestuff/vrpacman/vrpacman/Temp/bin/Debug/UnityEditor.dll
+/Users/thomasspringborg/Documents/2016_codestuff/vrpacman/vrpacman/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/thomasspringborg/Documents/2016_codestuff/vrpacman/vrpacman/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/thomasspringborg/Documents/2016_codestuff/vrpacman/vrpacman/Temp/bin/Debug/Mono.Cecil.dll
+/Users/thomasspringborg/Documents/2016_codestuff/vrpacman/vrpacman/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/thomasspringborg/Documents/2016_codestuff/vrpacman/vrpacman/Temp/bin/Debug/Unity.DataContract.dll
+/Users/thomasspringborg/Documents/2016_codestuff/vrpacman/vrpacman/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/thomasspringborg/Documents/2016_codestuff/vrpacman/vrpacman/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/thomasspringborg/Documents/2016_codestuff/vrpacman/vrpacman/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/thomasspringborg/Documents/2016_codestuff/vrpacman/vrpacman/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/thomasspringborg/Documents/2016_codestuff/vrpacman/vrpacman/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/thomasspringborg/Documents/2016_codestuff/vrpacman/vrpacman/Temp/bin/Debug/Mono.Cecil.Mdb.dll

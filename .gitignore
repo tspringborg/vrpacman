@@ -24,6 +24,10 @@ ExportedObj/
 .idea
 **/Temp
 **/Library
+**/[Bb]uild
+[Bb]uilds
+[Bb]uild
+[Bb]uilds
 **/*/.DS_Store
 */.DS_Store
 .DS_Store

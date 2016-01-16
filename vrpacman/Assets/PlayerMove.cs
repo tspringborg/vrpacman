@@ -16,6 +16,7 @@ public class PlayerMove : NetworkBehaviour
 	}
 	public override void OnStartLocalPlayer()
 	{
+		Debug.Log("Hello from player move");
 		GetComponent<MeshRenderer>().material.color = Color.red;
 	}
 }

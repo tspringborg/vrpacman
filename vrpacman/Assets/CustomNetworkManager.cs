@@ -27,7 +27,7 @@ public class CustomNetworkManager : NetworkManager {
 	{
 		base.OnClientConnect (conn);
 		SceneManager.LoadScene("Environment", LoadSceneMode.Additive);
-		GameObject player = (GameObject)Instantiate(playerPrefab, new Vector3(-3.85f, 1.12f, 26.47f), Quaternion.identity);
+		GameObject player = (GameObject)Instantiate(playerPrefab, SpawnLocations.ForNewPlayer(numPlayers), Quaternion.identity);
 		FollowTarget followScript = playerViewport.gameObject.AddComponent<FollowTarget>();
 		followScript.offset = Vector3.zero;
 		followScript.target = player.transform;

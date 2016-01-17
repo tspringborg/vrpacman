@@ -11,8 +11,13 @@ public class CustomNetworkManager : NetworkManager {
 	public Transform playerViewport;
 	public Transform playerViewportRotate;
 
+<<<<<<< HEAD
 	//private string hostIP = "10.40.0.170"; //ts
 	private string hostIP = "10.40.0.176"; //ns
+=======
+	private string hostIP = "10.40.0.170"; //ts
+	//private string hostIP = "10.40.0.176"; //ns
+>>>>>>> a4fa4ad4f29e81caef2b77e446536af2aa777332
 	//private string hostIP = "10.40.0.192"; //julie
 	//private string hostIP = "10.40.1.51"; //samuel
 
@@ -27,7 +32,7 @@ public class CustomNetworkManager : NetworkManager {
 	{
 		base.OnClientConnect (conn);
 		SceneManager.LoadScene("Environment", LoadSceneMode.Additive);
-		GameObject player = (GameObject)Instantiate(playerPrefab, new Vector3(-3.85f, 1.12f, 26.47f), Quaternion.identity);
+		GameObject player = (GameObject)Instantiate(playerPrefab, SpawnLocations.ForNewPlayer(numPlayers), Quaternion.identity);
 		FollowTarget followScript = playerViewport.gameObject.AddComponent<FollowTarget>();
 		followScript.offset = Vector3.zero;
 		followScript.target = player.transform;

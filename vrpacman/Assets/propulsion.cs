@@ -6,11 +6,11 @@ public class propulsion : NetworkBehaviour {
 
 
 	public float power;
-	private Quaternion rot;
+	//private Quaternion rot;
 	private Rigidbody rg;
 	// Use this for initialization
 	void Start () {
-		rot = this.gameObject.transform.rotation;
+		//rot = this.gameObject.transform.rotation;
 		rg = this.GetComponent<Rigidbody>();
 	}
 	

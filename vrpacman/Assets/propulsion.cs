@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Networking;
 
-public class propulsion : MonoBehaviour {
+public class propulsion : NetworkBehaviour {
 
 
 	public float power;
@@ -15,6 +16,8 @@ public class propulsion : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (!isLocalPlayer)
+			return;
 		/*
 		obj2.localRotation = new Quaternion(obj1.localRotation.x * -1.0f,
 			obj1.localRotation.y,

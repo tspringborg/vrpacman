@@ -15,10 +15,10 @@ public class Server : NetworkManager {
 	// called when a new player is added for a client
 	public virtual void OnServerAddPlayer(NetworkConnection conn, short playerControllerId)
 	{
-		/*
-		var player = (GameObject)GameObject.Instantiate(playerPrefab, playerSpawnPos, Quaternion.identity);
+		
+		var player = (GameObject)GameObject.Instantiate(playerPrefab, SpawnLocations.ForNewPlayer(numPlayers), Quaternion.identity);
 		NetworkServer.AddPlayerForConnection(conn, player, playerControllerId);
-		*/
+
 		base.OnServerAddPlayer(conn, playerControllerId);
 	}
 }

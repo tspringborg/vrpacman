@@ -3,7 +3,8 @@ using System.Collections;
 
 public static class SpawnLocations {
 	public static Vector3 ForNewPlayer(int numPlayers){
-		switch(numPlayers-1){
+		Debug.Log("SpawnLocation for player: "+numPlayers);
+		switch(numPlayers){
 		case 0:
 		case 1:
 			return new Vector3(-3.85f, 1.12f, 26.47f);

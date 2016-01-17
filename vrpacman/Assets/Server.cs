@@ -8,6 +8,7 @@ public class Server : NetworkManager {
 
 	public void Awake(){
 		StartHost();
+		autoCreatePlayer = true;
 	}
 	public void Start(){
 		SceneManager.LoadScene("Environment", LoadSceneMode.Additive);
@@ -16,8 +17,8 @@ public class Server : NetworkManager {
 	public virtual void OnServerAddPlayer(NetworkConnection conn, short playerControllerId)
 	{
 		
-		var player = (GameObject)GameObject.Instantiate(playerPrefab, SpawnLocations.ForNewPlayer(numPlayers), Quaternion.identity);
-		NetworkServer.AddPlayerForConnection(conn, player, playerControllerId);
+		//var player = (GameObject)GameObject.Instantiate(playerPrefab, SpawnLocations.ForNewPlayer(numPlayers), Quaternion.identity);
+		//NetworkServer.AddPlayerForConnection(conn, player, playerControllerId);
 
 		base.OnServerAddPlayer(conn, playerControllerId);
 	}

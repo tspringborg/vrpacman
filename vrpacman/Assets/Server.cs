@@ -16,9 +16,9 @@ public class Server : NetworkManager {
 	public virtual void OnServerAddPlayer(NetworkConnection conn, short playerControllerId)
 	{
 		/*
-		var player = (GameObject)GameObject.Instantiate(playerPrefab, playerSpawnPos, Quaternion.identity);
-		NetworkServer.AddPlayerForConnection(conn, player, playerControllerId);
-		*/
+		var player = (GameObject)GameObject.Instantiate(playerPrefab, Vector3 (-5,1,-23 ), Quaternion.identity);
+		NetworkServer.AddPlayerForConnection(conn, player, playerControllerId); */
+
 		base.OnServerAddPlayer(conn, playerControllerId);
 	}
 }

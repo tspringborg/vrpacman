@@ -11,10 +11,10 @@ public class CustomNetworkManager : NetworkManager {
 	public Transform playerViewport;
 	public Transform playerViewportRotate;
 
-	//private string hostIP = "10.40.0.170"; //ts
+	private string hostIP = "10.40.0.170"; //ts
 	//private string hostIP = "10.40.0.176"; //ns
 	//private string hostIP = "10.40.0.192"; //julie
-	private string hostIP = "10.40.1.51"; //samuel
+	//private string hostIP = "10.40.1.51"; //samuel
 
 	public void Awake(){
 		networkAddress = hostIP;
